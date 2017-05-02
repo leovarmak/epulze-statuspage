@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+	<title>Epulze.com Status</title>
+	<link href="stylesheets/style.css" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
+	<script src="js/script.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="inner">
+		<div class="header clearfix">
+			<div class="heading">
+				<img src="./images/epulze-logo.png" alt="" / class="logo" >
+				<span class="service1">system status</span>
+			</div>
+		</div>
+		<div class="content">
+			<div class="white box">
+				<div class="largestatus">
+					<span class="status-bubble status-up light blink" id="blink"></span>
+					<div class="title-wrapper">
+						<span class="title" id="title">All services are online.</span> <label class="status-time">As of <span class="current-time"></span></label>
+					</div>
+				</div>
+				<div class="statistics">
+					<div class="inner-gradient"></div>
+					<div class="uptime-graphs box-inner">
+					<div class="uptime-graph-section ">
+						<div class="uptime-graph-header clearfix">
+							<span class="uptime-stat-name">Epulze Website<em class="warning"><!-- warning triangle goes here --></em></span> <span class="percentage"><em id="epulzeweb">Online</em></span>
+						</div>
+						<div class="myProgress">
+						  <div class="myBar" id="1"></div>
+						</div>
+					</div>
+					<div class="uptime-graph-section ">
+						<div class="uptime-graph-header clearfix">
+							<span class="uptime-stat-name">Epulze API<em class="warning"><!-- warning triangle goes here --></em></span> <span class="percentage"><em id="epulzeapi">Online</em></span>
+						</div>
+						<div class="myProgress">
+						  <div class="myBar" id="2"></div>
+						</div>
+					</div>
+						<div class="uptime-graph-section">
+							<div class="uptime-graph-header clearfix">
+								<span class="uptime-stat-name">Steam API<em class="warning"><!-- warning triangle goes here --></em></span> <span class="percentage"><em id="steamapi">Online</em></span>
+							</div>
+							<div class="myProgress">
+							  <div class="myBar" id="3"></div>
+							</div>						</div>
+						<div class="uptime-graph-section">
+							<div class="uptime-graph-header clearfix">
+								<span class="uptime-stat-name">Dota 2 Game Coordinator<em class="warning"><!-- warning triangle goes here --></em></span> <span class="percentage"><em id="dotagc">Online</em></span>
+							</div>
+							<div class="myProgress">
+							  <div class="myBar" id="4"></div>
+							</div>
+						</div>
+						<div class="uptime-graph-section">
+							<div class="uptime-graph-header clearfix">
+								<span class="uptime-stat-name">Dota 2 API<em class="warning"><!-- warning triangle goes here --></em></span> <span class="percentage"><em id="dotaapi">Online</em></span>
+							</div>
+							<div class="myProgress">
+							  <div class="myBar" id="5"></div>
+							</div>
+						</div>
+					</div>
+					<div class="uptime-legend box-inner clearfix">
+						<span class="legend-item"><span class="legend-color graph-up"></span> <label>Online</label></span> <span class="legend-item"><span class="legend-color graph-down"></span> <label>Offline</label></span>
+					</div>
+				</div>
+			</div><!--
+  <div class="twitter-feed white box">
+    <div class="empty">
+      <div class="box-inner">
+    
+        <h3>No new tweets in the last 7 days.</h3>
+        <p>
+          Updates provided via the <a href="http://twitter.com/stripestatus">@stripestatus</a> twitter feed, follow us there!
+        </p>
+      </div>
+    </div>
+  </div>-->
+		</div>
+		<div id="footer">
+			<ul>
+				<li>
+					<a>Dota 2™ is a registered trademark of Valve Corporation ®. Epulze™ is a registered trademark of Esports pulze AB ® This site is in no way associated with or endorsed by Valve Corporation ® or Esports pulze AB.</a>			
+				</li>
+			</ul>
+<!--			<p>&copy; Karthik Varma</p>-->
+		</div>
+	</div>
+</body>
+</html>
