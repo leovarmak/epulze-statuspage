@@ -32,6 +32,9 @@ $(document).ready(function(){
 						$("#epulzeweb").append("Offline");	
 					}
 		});
+		$.getJSON( "https://api.coinmarketcap.com/v1/ticker/bitcoin", function( data ){
+				console.log(data.down);
+		});
 		
 		$.getJSON( "https://updown.io/api/checks/iqi4?api-key=pnavjcju48ceily98fny", function( data ){
 				console.log(data.last_status)
