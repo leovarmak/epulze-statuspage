@@ -5,7 +5,7 @@
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 3) {
 	.inner {
-	  width: 460px;
+	  width: 100%;
 	  margin: auto;
 	  margin-bottom: 2em;
 	}
