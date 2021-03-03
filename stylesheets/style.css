@@ -1,5 +1,17 @@
 /******* Global *******/
 
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+	.inner {
+	  width: 460px;
+	  margin: auto;
+	  margin-bottom: 2em;
+	}
+}
+
+
 @font-face {
   font-family: "Camphor W04";
   font-weight: 400;
